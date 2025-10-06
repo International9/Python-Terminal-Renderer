@@ -10,7 +10,7 @@ BackgroundColor = Color(0, 150, 255)
 ScreenPixelBuffer : list = InitNewEmptyScreenBuffer(BackgroundColor)
 
 def Start():
-    # Clean The WHOLE Terminal:``
+    # Clean The WHOLE Terminal:
     ClearScreen()
 
 def Update():
@@ -55,3 +55,4 @@ def OnFinishedRender():
 
 def Quit():
     ClearScreen()
+
